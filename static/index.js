@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById("form"); //Searching form by id
     const translatedTextElement = document.getElementById("translated-text"); //Element where translated text is placed
-    const url = "https://ai-translator-o6ho.onrender.com/translate"; //Backend path for translation
+    const url = "http://localhost:5000/translate"; //Backend path for translation
 
     //Event listener for form submit
     form.addEventListener("submit", async (event) => {
